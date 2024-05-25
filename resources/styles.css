@@ -1,0 +1,15 @@
+#heart-rate {
+  font-size: 42;
+  font-family: System-Bold;
+  text-anchor: middle;
+  x: 52%;
+  y: 19%;
+  fill: #fafafa;
+}
+
+#heart-pulse {
+  x: 35%;
+  y: 10%;
+  width: 30;
+  height: 30;
+}

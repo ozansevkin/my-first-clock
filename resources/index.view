@@ -1,0 +1,28 @@
+<svg>
+  <defs>
+  <symbol id="heart-pulse-template">
+    <g>
+    <animateTransform attributeType="scale" from="1" to="1.01" begin="enable" dur="1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="1" to="0.7" begin="enable" dur="1" repeatCount="indefinite"/>
+    <image id="heart-pulse" href="heart-pulse.png"/>
+    </g>
+  </symbol>
+  </defs>
+
+
+  <image href="background.jpg"/>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-250" width="2" height="250" fill="#ff6961" />
+  </g>
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-110" width="8" height="110" fill="#e0e0e0" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-6" y="-75" width="12" height="75" fill="#ffffff" />
+  </g>
+  <circle cx="50%" cy="50%" r="10" fill="#444444" />
+  
+
+  <use id="heart-pulse-instance" href="#heart-pulse-template"/>
+  <text id="heart-rate"/>
+</svg>
